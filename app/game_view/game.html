@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="starter-template">
+    <h1>Gaming Life</h1>
+    <table class="table table-striped">
+      <tr>
+        <th>Atividade</th>
+        <th>Atual</th>
+        <th>Total</th>
+        <th>Pontos</th>
+        <th>Peso</th>
+        <th></th>
+      </tr>
+      <tr ng-repeat="dado in $game.dados">
+        <td>{{dado.nome}}</td>
+        <td>00:00</td>
+        <td>{{dado.total | decimalTime}}</td>
+        <td>{{dado.total*dado.peso}}</td>
+        <td>x{{dado.peso}}</td>
+        <td><button class="btn btn-default  ">Start</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- /.container -->

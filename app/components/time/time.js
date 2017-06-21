@@ -1,0 +1,1 @@
+angular.module('myApp.time', ['myApp.time.decimalTime_filter']);
