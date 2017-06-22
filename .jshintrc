@@ -1,4 +1,5 @@
 {
+  "unused": true,
   "strict": "global",
   "globals": {
     // Angular
@@ -19,6 +20,8 @@
     // Protractor
     "browser": false,
     "element": false,
-    "by": false
+    "by": false,
+
+    "window": false
   }
 }

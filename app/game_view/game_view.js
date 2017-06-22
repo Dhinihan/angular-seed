@@ -12,16 +12,16 @@ angular.module('myApp.game_view', ['ngRoute'])
 
 .controller('GameCtrl', [function() {
 
-  this.dados = []
+  this.dados = [];
   this.dados[0] = {
     nome: 'Trabalho',
     total: 13.84,
     peso: 1
-  }
+  };
   this.dados[1] = {
     nome: 'Estudo',
     total: 7.12,
     peso: 3
-  }
+  };
 
 }]);
